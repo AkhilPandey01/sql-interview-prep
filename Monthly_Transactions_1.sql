@@ -1,4 +1,4 @@
-Approach:
+Approach:- tried to solve one problem at each time extracting month and year from the date and then grouping by month and country to get the count of transactions, count of approved transactions, total amount of transactions and total amount of approved transactions for each month and country, group by was thing to notice earlier though using of partition by month, country but that was too much
 SELECT 
     DATE_FORMAT(trans_date, "%Y-%m") AS month,
     country,
